@@ -9,7 +9,6 @@ describe('SmartCalculator', () => {
     const value = calculator
       .add(5)
       .add(5);
-
     assert.equal(value, 11);
   });
 
